@@ -1,0 +1,15 @@
+.ride{
+  display: flex;
+}
+.destination-search{
+   width: 300px;
+    margin-right: 10px;
+    border-right: 1px solid rebeccapurple;
+}
+.map{
+    margin-left: 20px;
+}
+.map img {
+    
+    height: 350PX;
+}

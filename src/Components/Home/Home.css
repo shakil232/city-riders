@@ -1,0 +1,31 @@
+
+.ride-card{
+    height: 140px;
+    width: 150px;
+    box-shadow: 5px 5px 10px lightskyblue;
+    text-align: center;
+    
+}
+.ride-card h5{
+    margin-top: 5px;
+    color: dimgray;
+    
+}
+.ride-card img{
+  width: 50%;
+}
+.booked-btn{
+    border: none;
+    width: 80px;
+    height: 25px;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.booked-btn:hover{
+    background-color: green;
+}

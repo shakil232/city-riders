@@ -18,13 +18,13 @@
         "rideName": "Bus",
         "cost": 60,
         "ticket": 1,
-        "rideImage": "https://i.ibb.co/86RvX6G/bus-2jpg.jpg"  
+        "rideImage": "https://i.ibb.co/1XVRcZL/bus.jpg"  
     },
     {
         "id": 4,
         "rideName": "Train",
         "cost": 50,
         "ticket": 1,
-        "rideImage": "https://i.ibb.co/1nbWyJz/train.jpg"
+        "rideImage": "https://i.ibb.co/wKB7vRy/Group.png"
     }
 ]
