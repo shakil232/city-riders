@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "rideName": "Bike",
+        "cost": 70,
+        "ticket": 1,
+        "rideImage": "https://i.ibb.co/dmYC99H/bike.jpg"  
+    },
+    {
+        "id": 2,
+        "rideName": "Car",
+        "cost": 150,
+        "ticket": 4,
+        "rideImage": "https://i.ibb.co/dJjLj5s/car1.jpg" 
+    },
+    {
+        "id": 3,
+        "rideName": "Bus",
+        "cost": 60,
+        "ticket": 1,
+        "rideImage": "https://i.ibb.co/86RvX6G/bus-2jpg.jpg"  
+    },
+    {
+        "id": 4,
+        "rideName": "Train",
+        "cost": 50,
+        "ticket": 1,
+        "rideImage": "https://i.ibb.co/1nbWyJz/train.jpg"
+    }
+]

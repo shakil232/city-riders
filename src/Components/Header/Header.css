@@ -1,0 +1,40 @@
+.nav-bar{
+    display: flex;
+}
+.menu {
+   margin-left: 100px;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 10px;
+    font-weight: 400;
+    color: black;
+    padding: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+.menu a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.logo{
+    font-size: 20px;
+   color: tomato;
+} 
+.login-btn{
+    border: none;
+    width: 66px;
+    height: 28px;
+    margin-left: 15px;
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.login-btn:hover{
+    background-color: rebeccapurple;
+}
