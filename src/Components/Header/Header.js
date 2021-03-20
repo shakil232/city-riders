@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import './Header.css';
 import fakeData from '../../fakeData/Data.json'
 import Home from '../Home/Home';
 import { Link } from 'react-router-dom';
 
-const Header = () => {
 
+const Header = () => {
     const [rides, setRides] = useState([])
     useEffect(() => {
         setRides(fakeData)
@@ -23,6 +23,7 @@ const Header = () => {
                     
                 </div>
                 <Link to="login"><button className="login-btn"> Login </button></Link>
+                
             </nav>
             <div className="  row row-cols-md-5 row-cols-sm-1 mt-5 p-5 ride-icon">
                 {

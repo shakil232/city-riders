@@ -50,15 +50,22 @@
   font-weight: 500;
   color: #3076FF;
 }
-.continue-btn{
-    width: 240px;
-    height: 30px;
+.continue-text{
     font-size: 10px;
     font-weight: 500;
-    background-color: green;
-    color: white;
-    border: 1px solid lightgray;
-    border-radius: 10px;
+    color: green;
+
+}
+.social-icon{
+    font-size: 30px;
+    margin-right: 8px; 
+    cursor: pointer;
+}
+.google{
+    color:#EA4335 ;
+}
+.facebook{
+    color: #3076FF;
 }
 .back-home{
     width: 240px;
