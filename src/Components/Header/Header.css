@@ -1,5 +1,13 @@
+
+.background{
+    background-image: url('../../images/city9.jpg');
+    width: 900px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
 .nav-bar{
     display: flex;
+    position:static;
 }
 .menu {
    margin-left: 100px;
@@ -8,8 +16,8 @@
     text-decoration: none;
     margin-right: 20px;
     font-size: 10px;
-    font-weight: 400;
-    color: black;
+    font-weight: 500;
+    color: rebeccapurple;
     padding: 5px;
     transition: 1s;
     cursor: pointer;
@@ -38,6 +46,9 @@
 .login-btn:hover{
     background-color: rebeccapurple;
 }
-.ride-icon{
-   
+.user-name{
+    color: orangered;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 500;
 }

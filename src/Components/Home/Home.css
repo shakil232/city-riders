@@ -2,8 +2,9 @@
 .ride-card{
     height: 140px;
     width: 150px;
-    box-shadow: 5px 5px 10px lightskyblue;
+    box-shadow: 5px 5px 10px rebeccapurple;
     text-align: center;
+    background-color: white;
     
 }
 .ride-card h5{
