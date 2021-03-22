@@ -1,28 +1,35 @@
 
+.log-background{
+    background-image: linear-gradient(190deg, rgba(255,0,0,0),rebeccapurple);
+    height: 400px;
+    width: 900px;
+}
 .form-area{
-    border: 1px solid lightgray;
-    width: 260px;
+    box-shadow: 5px 5px 10px lightgreen;
+    width: 250px;
     height: 240px;
     border-radius: 5px; 
+    margin-left: 300px;
 }
 .form-header{
-   font-size: 20px;
+   font-size: 16px;
+   margin-bottom: -8px;
    font-weight: 500;
    color: dimgray;
 }
 .inputs{
     border: none;
     border-bottom: 1px solid lightskyblue;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 500;
-    padding: 7px;
-    height: 30px;
-    width: 240px;
+    padding: 5px;
+    height: 27px;
+    width: 230px;
 }
 .submit{
     margin-top: 9px;
-    width: 240px;
-    height: 30px;
+    width: 225px;
+    height: 28px;
     font-size: 12px;
     font-weight: 400;
     color: white;
@@ -35,11 +42,11 @@
     background-color: green;
  }  
  #account{
-     font-size: 11px;
+     font-size: 10px;
      font-weight: 500;
  }
  #login {
-     font-size: 11px;
+     font-size: 9px;
      color: orangered;
      margin-left: 3px;
      text-decoration: none;
@@ -48,38 +55,57 @@
  }
 #or{
   font-weight: 500;
-  color: #3076FF;
+  color: orange;
+  margin-top: 5px;
+  
 }
-.continue-text{
-    font-size: 10px;
-    font-weight: 500;
-    color: green;
 
-}
 .social-icon{
-    font-size: 30px;
-    margin-right: 8px; 
+    font-size: 20px;
+    margin-right: 35px; 
+    margin-left: 5px; 
     cursor: pointer;
 }
 .google{
-    color:#EA4335 ;
+    color: orange;
 }
 .facebook{
-    color: #3076FF;
+    color: orange;
 }
-.back-home{
-    width: 240px;
-    height: 30px;
-    font-size: 10px;
-    font-weight: 500;
-    background-color: orangered;
+
+.login-area{
+    box-shadow: 5px 5px 10px lightgreen;
+    width: 250px;
+    height: 190px;
+    border-radius: 5px; 
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.login-button{
+    margin-top: 9px;
+    width: 225px;
+    height: 28px;
+    font-size: 12px;
+    font-weight: 400;
     color: white;
+    background-color: green;
     border: none;
-    border-radius: 6px;
+    border-radius: 5px;
+    transition: 1s;
 }
-.user-name{
-    color: orangered;
-    text-decoration: underline;
-    font-size: 17px;
-    font-weight: 500;
+.continue-area p{
+    margin-left: 380px;
+  
+}
+.continue-area h5 {
+    font-size: 10px;
+    box-shadow: 5px 5px 10px lightgreen;
+    border-radius: 10px;
+    width: 220px;
+    height: 25px;   
+    margin-left: 300px;
+    cursor: pointer;
+    color: white;
+
 }

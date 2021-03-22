@@ -3,7 +3,7 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <div>
+        <div className="container text-dark mt-3">
             <h3> contact site not ready now...</h3>
         </div>
     );
